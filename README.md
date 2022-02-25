@@ -7,7 +7,7 @@ It helps deliver the configured functional objects, decreasing coupling between 
 
 Global variables? Proxy objects? Application context?
 
-There should be one (and preferably only one) obvious way to do it.
+> There should be one (and preferably only one) obvious way to do it.
 
 Botox helps you isolate a class from the impact of different design changes and defects. 
 Meaning that, instead of thinking about interdependence between application modules
@@ -17,7 +17,7 @@ you will now find yourself spending your time having to focus a class on the tas
 
 Monkey-patching? Decorators?
 
-Explicit is better than implicit.
+> Explicit is better than implicit.
 
 Botox allows a class the flexibility of being configurable.
 The class rely on dependencies interface that he expect.
@@ -26,7 +26,9 @@ situations that require different implementations of dependencies.
   
 ### Usage
 
-Now is better than never.
+Could we try it in the next project? 
+
+> Now is better than never.
 
 Botox doesn’t require any change in code behavior it can be applied to legacy code as a refactoring.
 
